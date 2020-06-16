@@ -4,6 +4,9 @@
     <Nav/>
 
     <Overview/>
+    <Howitwork/>
+    <Features/>
+    <DownloadandShare/>
   </div>
 </template>
 
@@ -11,11 +14,17 @@
 
 import Nav from './components/Nav'
 import Overview from './components/Overview'
+import Howitwork from './components/Howitwork'
+import Features from './components/Features'
+import DownloadandShare from './components/DownloadandShare'
 export default {
   name: 'App',
   components:{
     Nav,
-    Overview
+    Overview,
+    Howitwork,
+    Features,
+    DownloadandShare
   }
 }
 </script>
