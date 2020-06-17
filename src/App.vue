@@ -7,6 +7,7 @@
     <Howitwork/>
     <Features/>
     <DownloadandShare/>
+    <Contact/>
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import Overview from './components/Overview'
 import Howitwork from './components/Howitwork'
 import Features from './components/Features'
 import DownloadandShare from './components/DownloadandShare'
+import Contact from './components/Contact'
 export default {
   name: 'App',
   components:{
@@ -24,7 +26,8 @@ export default {
     Overview,
     Howitwork,
     Features,
-    DownloadandShare
+    DownloadandShare,
+    Contact
   }
 }
 </script>

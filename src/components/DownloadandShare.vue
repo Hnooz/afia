@@ -8,17 +8,19 @@
                     <span class="mt-1 mx-1"><ion-icon id="apple" class="h-6 w-5" name="logo-apple"></ion-icon></span>
                     Apple Store
                 </a>
-
-            <!-- <div class="flex"> -->
                 
-                <a href="#" 
+                <a href="https://play.google.com/store/apps/details?id=com.sideeg.afia_user&gl=TR" 
                     class="bg-green-600 border-2 flex items-center hover:bg-transparent hover:border-gray-500 hover:border-green-500 hover:text-green-600 justify-center md:ml-32 md:mx-0 md:my-10 md:px-2 md:whitespace-no-wrap mt-10 mx-24 py-2 rounded text-white whitespace-no-wrap">
                     <span class="mt-1 mx-1"><ion-icon class="h-6 w-5" name="logo-google-playstore"></ion-icon></span>
                     Play Store
-                    </a>
-            <!-- </div> -->
+                </a>
         </div>
-    </section> 
+        <div class="my-16">
+            <h1 class="font-semibold text-center text-teal-500 text-xl mb-16">Share Afia Mobile Application whit Your Friends!</h1>
+            <div class="sharethis-inline-share-buttons"></div>
+        </div>
+        
+    </section>
 </template>
 
 <script>

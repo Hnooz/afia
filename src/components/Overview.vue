@@ -15,7 +15,7 @@
                     <h1 class="font-mono text-teal-500 text-xl">Who We Are</h1>
                 </div>
                 
-                <p class="font-light p-1 text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id perspiciatis repellat eius si</p>
+                <p class="font-light p-1 pl-3 text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id perspiciatis repellat eius si</p>
             </div>
 
             <div class="mb-10 md:mb-0 border-b-2 border-teal-500 shadow-2xl mx-6">
@@ -24,7 +24,7 @@
                    <h1 class="font-mono text-teal-500 text-xl">Our Mession</h1> 
                 </div>
                 
-                <p class="font-light p-1 text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id perspiciatis repellat eius si</p>
+                <p class="font-light p-1 pl-3 text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id perspiciatis repellat eius si</p>
             </div>
 
             <div class="mb-10 md:mb-0 border-b-2 border-teal-500 shadow-2xl mx-6">
@@ -33,7 +33,7 @@
                     <h1 class="font-mono text-teal-500 text-xl">Our Vision</h1>
                 </div>
                 
-                <p class="font-light p-1 text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id perspiciatis repellat eius si</p>
+                <p class="font-light p-1 pl-3 text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id perspiciatis repellat eius si</p>
             </div>
 
         </div>

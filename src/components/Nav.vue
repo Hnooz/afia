@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="max-w-sm md:max-w-none mt-10 mx-auto">
-                        <a href="#DownloadandShare" class="bg-teal-500 border-2 hover:bg-transparent hover:border-teal-400 hover:text-teal-400 md:mx-0 mx-16 px-2 py-3 rounded-lg text-white text-xl">Download</a>
+                        <a href="#DownloadandShare" class="flex justify-center md:justify-start bg-teal-500 border-2 hover:bg-transparent hover:border-teal-400 hover:text-teal-400 md:mx-0 mx-16 px-2 py-3 rounded-lg text-white text-xl">Download</a>
                     </div>
 
             </div>
