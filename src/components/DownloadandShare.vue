@@ -4,7 +4,7 @@
         <div class="md:flex md:justify-center mt-10">
                 
                 <a href="#" 
-                    class="bg-black border-2 flex hover:bg-transparent hover:border-black hover:text-black items-center justify-center md:mx-0 md:px-2 md:whitespace-no-wrap mx-32 mx-40 my-10 py-2 rounded text-white">
+                    class="bg-black border-2 flex hover:bg-transparent hover:border-black hover:text-black items-center justify-center md:mx-0 md:px-2 md:whitespace-no-wrap mx-24 my-10 py-2 rounded text-white whitespace-no-wrap">
                     <span class="mt-1 mx-1"><ion-icon id="apple" class="h-6 w-5" name="logo-apple"></ion-icon></span>
                     Apple Store
                 </a>
@@ -12,7 +12,7 @@
             <!-- <div class="flex"> -->
                 
                 <a href="#" 
-                    class="bg-green-600 border-2 flex items-center hover:bg-transparent hover:border-gray-500 hover:border-green-500 hover:text-green-600 justify-center md:ml-32 md:mx-0 md:my-10 md:px-2 md:whitespace-no-wrap mt-10 mx-32 mx-40 py-2 rounded text-white">
+                    class="bg-green-600 border-2 flex items-center hover:bg-transparent hover:border-gray-500 hover:border-green-500 hover:text-green-600 justify-center md:ml-32 md:mx-0 md:my-10 md:px-2 md:whitespace-no-wrap mt-10 mx-24 py-2 rounded text-white whitespace-no-wrap">
                     <span class="mt-1 mx-1"><ion-icon class="h-6 w-5" name="logo-google-playstore"></ion-icon></span>
                     Play Store
                     </a>

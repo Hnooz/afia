@@ -2,7 +2,7 @@
 
        <section id="Features" class="md:flex container border-b-2 border-teal-500  mt-16 mx-auto px-12">
         <div class="lg:w-1/2 md:mt-16 md:w-3/4 mt-24 w-full">
-           <img src="../assets/images/slide1.jpg" class="md:h-screen md:pb-10 rounded" alt="">
+           <img src="../assets/images/slide1.jpg" class="md:h-auto md:min-h-full md:pb-10 min-h-full rounded" alt="">
         </div>
         <div class="items-center justify-between mt-16 mb-24">
             <h1 class="font-semibold mb-6 text-teal-500 text-xl md:ml-3">Afia Features</h1>
