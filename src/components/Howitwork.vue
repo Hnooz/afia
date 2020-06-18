@@ -6,25 +6,15 @@
         </div>
         
         <carousel class="pb-12">
-        <slide>
-            <img class="px-1 rounded-lg" src="../assets/images/slide1.jpg" alt="">
-        </slide>
-        <slide>
-            <img class="px-1 rounded-lg" src="../assets/images/slide2.jpg" alt="">
+        <slide class="md:px-24">
+            <img class="px-1 rounded-lg" src="../assets/images/step1.png" alt="">
         </slide>
 
-         <slide>
-            <img class="px-1 rounded-lg" src="../assets/images/slide3.jpg" alt="">
+         <slide class="md:px-24">
+            <img class="px-1 rounded-lg" src="../assets/images/step2.png" alt="">
         </slide>
-        <slide>
-            <img class="px-1 rounded-lg" src="../assets/images/slide1.jpg" alt="">
-        </slide>
-
-         <slide>
-            <img class="px-1 rounded-lg" src="../assets/images/slide2.jpg" alt="">
-        </slide>
-        <slide>
-            <img class="px-1 rounded-lg" src="../assets/images/slide3.jpg" alt="">
+        <slide class="md:px-24">
+            <img class="px-1 rounded-lg" src="../assets/images/step3.png" alt="">
         </slide>
 
         </carousel>

@@ -28,7 +28,7 @@
                     <a href="#overview" class="block px-2 py-1 text-teal-300 font-medium rounded hover:bg-teal-300 hover:text-white">OverView</a>
                     <a href="#howitwork" class="mt-1 block px-2 py-1 text-teal-300 font-medium rounded hover:bg-teal-300 hover:text-white md:mt-0 md:ml-2">How It Work</a>
                     <a href="#Features" class="mt-1 block px-2 py-1 text-teal-300 font-medium rounded hover:bg-teal-300 hover:text-white md:mt-0 md:ml-2">Features</a>
-                    <a href="#" class="mt-1 block px-2 py-1 text-teal-300 font-medium rounded hover:bg-teal-300 hover:text-white md:mt-0 md:ml-2">Contact</a>
+                    <a href="#contact" class="mt-1 block px-2 py-1 text-teal-300 font-medium rounded hover:bg-teal-300 hover:text-white md:mt-0 md:ml-2">Contact</a>
                     <button class="mt-1 ml-2 block px-2 py-1 bg-teal-300 text-teal-100 font-semibold rounded hover:bg-teal-300 focus:outline-none md:mt-0 md:ml-2">AR</button>
                 </div>
             </div>
