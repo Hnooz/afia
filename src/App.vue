@@ -1,8 +1,6 @@
 <template>
-
   <div id="app">
-    <Nav/>
-
+    <Header/>
     <Overview/>
     <Howitwork/>
     <Features/>
@@ -13,29 +11,23 @@
 
 <script>
 
-import Nav from './components/Nav'
-import Overview from './components/Overview'
-import Howitwork from './components/Howitwork'
-import Features from './components/Features'
-import DownloadandShare from './components/DownloadandShare'
-import Contact from './components/Contact'
+import Header from './components/Header';
+import Overview from './components/Overview';
+import Howitwork from './components/Howitwork';
+import Features from './components/Features';
+import DownloadandShare from './components/DownloadandShare';
+import Contact from './components/Contact';
 export default {
   name: 'App',
   components:{
-    Nav,
+    Header,
     Overview,
     Howitwork,
     Features,
     DownloadandShare,
-    Contact
-  }
+    Contact,
+  },
 }
 </script>
 
-<style src="./assets/css/tailwind.css">
-
-</style>
-
-
-
-
+<style src="./assets/css/tailwind.css"></style>
