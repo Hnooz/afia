@@ -8,11 +8,15 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@bit/joshk.vue-spinners-css.roller-loader": "^1.1.4",
+    "aos": "^3.0.0-beta.6",
     "core-js": "^3.6.5",
+    "epic-spinners": "^1.1.0",
     "tailwindcss": "^1.4.6",
     "vue": "^2.6.11",
     "vue-carousel": "^0.18.0",
-    "vue-router": "^3.3.2"
+    "vue-router": "^3.3.2",
+    "vue-spinners-css": "^1.1.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",

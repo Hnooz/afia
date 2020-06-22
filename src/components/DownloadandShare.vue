@@ -1,5 +1,7 @@
 <template>
-    <section id="DownloadandShare" class="container mx-auto mt-16 border-teal-500 border-b-2">
+    <section id="DownloadandShare" class="container mx-auto mt-16 border-teal-500 border-b-2" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000">
         <h1 class="font-semibold text-center text-teal-500 text-xl">Download Afia Mobile Application Now!</h1>
         <div class="md:flex md:justify-center mt-10">
                 
