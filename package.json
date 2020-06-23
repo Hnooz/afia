@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
   },
   "dependencies": {
     "@bit/joshk.vue-spinners-css.roller-loader": "^1.1.4",
@@ -16,7 +17,8 @@
     "vue": "^2.6.11",
     "vue-carousel": "^0.18.0",
     "vue-router": "^3.3.2",
-    "vue-spinners-css": "^1.1.5"
+    "vue-spinners-css": "^1.1.5",
+    "vue-i18n": "^8.17.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
@@ -26,6 +28,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "vue-cli-plugin-i18n": "^1.0.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
