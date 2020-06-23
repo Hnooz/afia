@@ -1,11 +1,11 @@
 <template>
-    <header :dir="dir" class="bg-white shadow-md border-b-2 border-teal-500">
+    <header class="bg-white shadow-md border-b-2 border-teal-500">
         <div class="container mx-auto px-8 md:px-12 py-8">
             <div class="md:flex items-center justify-between">
                 <div class="flex items-center justify-between">
                     <div class="flex items-center">
                         <img src="../assets/afia.png" class="h-10">
-                        <h1 class="text-2xl font-semibold text-teal-400 mx-2">Afia</h1>
+                        <h1 class="text-2xl font-semibold text-teal-400 mx-2">{{ $t('name') }}</h1>
                     </div>
 
                     <div class="md:hidden">
@@ -26,12 +26,13 @@
                         <a href="#contact" class="mt-1 block px-2 py-1 text-teal-400 font-medium rounded hover:bg-teal-400 hover:text-white md:mt-0 md:mx-2">Contact</a>
                     </nav>
 
-                    <button @click="changeDir" class="mt-1 block px-2 py-1 bg-teal-400 text-white font-semibold rounded hover:bg-teal-300 focus:outline-none md:mt-0 md:mx-2">{{ dir == 'ltr' ? 'AR' : 'EN' }}</button>
+                    <router-link v-if="currentPage == 'ar'" to="/en" class="font-roboto mt-1 inline px-2 py-1 bg-teal-400 text-white font-semibold rounded hover:bg-teal-300 focus:outline-none md:mt-0 md:mx-2">EN</router-link>
+                    <router-link v-if="currentPage == 'en'" to="/ar" class="mt-1 inline px-2 py-1 bg-teal-400 text-white font-semibold rounded hover:bg-teal-300 focus:outline-none md:mt-0 md:mx-2">AR</router-link>
                 </div>
             </div>
 
             <div class="flex items-center" style="height:540px;">
-                <div :class="dir == 'ltr' ? 'md:text-left' : 'md:text-right'" class="text-center">
+                <div class="text-center md:text-left">
                     <div class="md:max-w-sm">
                         <h2 class="mb-6 text-2xl font-semibold text-teal-500 md:text-4xl">Medication To Your Home.</h2>
                     </div> 
@@ -50,28 +51,19 @@
 </template>
 
 <script>
+import i18n from "../i18n";
 export default {
     name:'Nav',
+    computed: {
+        currentPage() {
+            return i18n.locale;
+        }
+    },
 
     data() {
         return {
             isOpen:false,
-            dir: 'ltr'
         }
-    },
-
-    methods: {
-        changeDir() {
-            if (this.dir == 'ltr') {
-                this.dir = 'rtl';
-                
-                this.$emit("dir" , this.dir);
-                return 0;
-            }
-            this.dir = 'ltr';
-                
-            this.$emit("dir" , this.dir);
-        },
     },
 }
 </script>

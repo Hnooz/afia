@@ -3,7 +3,12 @@ module.exports = {
     './src/**/*.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'roboto': ['Roboto'],
+        'tajawal': ['Tajawal'],
+      },
+    },
   },
   variants: {},
   plugins: [],
