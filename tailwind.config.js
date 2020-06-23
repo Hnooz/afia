@@ -1,7 +1,14 @@
 module.exports = {
-  purge: [],
+  purge: [
+    './src/**/*.vue',
+  ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'roboto': ['Roboto'],
+        'tajawal': ['Tajawal'],
+      },
+    },
   },
   variants: {},
   plugins: [],
