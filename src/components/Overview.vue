@@ -1,5 +1,7 @@
 <template>
-    <section id="overview" class="container border-b-2 border-teal-500  mt-16 mx-auto px-12">
+    <section id="overview" class="container border-b-2 border-teal-500  mt-16 mx-auto px-12" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000">
         <div class="my-24">
             <h1 class="font-semibold mb-2 text-2xl text-center text-teal-500">About Afia</h1>
             <p class="font-light text-center text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id perspiciatis repellat eius si

@@ -1,5 +1,7 @@
 <template>
-    <div id="contact">
+    <div id="contact" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000">
         <div class="container mx-auto m-16">
             <!-- <div class=""> -->
                 <div class="md:flex md:w-full md:px-16">

@@ -1,5 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import * as VueSpinnersCss from "vue-spinners-css";
+
+AOS.init();
+Vue.use(VueSpinnersCss)
 
 Vue.config.productionTip = false
 

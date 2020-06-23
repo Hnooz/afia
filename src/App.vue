@@ -1,6 +1,8 @@
 <template>
 
   <div id="app">
+    <!-- <RollerLoader :color="'#54f1d2'" /> -->
+   <!-- <Spinner/> -->
     <Nav/>
 
     <Overview/>
@@ -13,6 +15,8 @@
 
 <script>
 
+// import Spinner from './components/Spinner'
+// import RollerLoader from '@bit/joshk.vue-spinners-css.roller-loader';
 import Nav from './components/Nav'
 import Overview from './components/Overview'
 import Howitwork from './components/Howitwork'
@@ -22,6 +26,8 @@ import Contact from './components/Contact'
 export default {
   name: 'App',
   components:{
+    // RollerLoader,
+    // Spinner,
     Nav,
     Overview,
     Howitwork,
