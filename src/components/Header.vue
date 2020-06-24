@@ -20,10 +20,10 @@
 
                 <div :class="isOpen ? 'block' : 'hidden'" class="md:flex md:-mx-2">
                     <nav class="md:flex -mx-2">
-                        <a href="#overview" class="mt-1 block px-2 py-1 text-teal-400 font-medium rounded hover:bg-teal-400 hover:text-white md:mt-0 md:mx-2">OverView</a>
-                        <a href="#howitwork" class="mt-1 block px-2 py-1 text-teal-400 font-medium rounded hover:bg-teal-400 hover:text-white md:mt-0 md:mx-2">How It Work</a>
-                        <a href="#Features" class="mt-1 block px-2 py-1 text-teal-400 font-medium rounded hover:bg-teal-400 hover:text-white md:mt-0 md:mx-2">Features</a>
-                        <a href="#contact" class="mt-1 block px-2 py-1 text-teal-400 font-medium rounded hover:bg-teal-400 hover:text-white md:mt-0 md:mx-2">Contact</a>
+                        <a href="#overview" class="mt-1 block px-2 py-1 text-teal-400 font-medium rounded hover:bg-teal-400 hover:text-white md:mt-0 md:mx-2">{{ $t('OverView') }}</a>
+                        <a href="#howitwork" class="mt-1 block px-2 py-1 text-teal-400 font-medium rounded hover:bg-teal-400 hover:text-white md:mt-0 md:mx-2">{{ $t('How It Work') }}</a>
+                        <a href="#Features" class="mt-1 block px-2 py-1 text-teal-400 font-medium rounded hover:bg-teal-400 hover:text-white md:mt-0 md:mx-2">{{ $t('Features') }}</a>
+                        <a href="#contact" class="mt-1 block px-2 py-1 text-teal-400 font-medium rounded hover:bg-teal-400 hover:text-white md:mt-0 md:mx-2">{{ $t('Contact') }}</a>
                     </nav>
 
                     <router-link v-if="currentPage == 'ar'" to="/en" class="font-roboto mt-1 inline px-2 py-1 bg-teal-400 text-white font-semibold rounded hover:bg-teal-300 focus:outline-none md:mt-0 md:mx-2">EN</router-link>
@@ -34,15 +34,15 @@
             <div class="flex items-center" style="height:540px;">
                 <div :class="currentPage == 'en' ? 'md:text-left' : 'md:text-right'" class="text-center">
                     <div class="md:max-w-sm">
-                        <h2 class="mb-6 text-2xl font-semibold text-teal-500 md:text-4xl">Medication To Your Home.</h2>
+                        <h2 class="mb-6 text-2xl font-semibold text-teal-500 md:text-4xl">{{ $t('Medication To Your Home') }}</h2>
                     </div> 
 
                     <div>
-                        <p class="mb-6 text-sm font-medium text-gray-700 md:max-w-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sunt commodi ab ipsum numquam at labore nobis aliquam quod tempore ,</p>
+                        <p class="mb-6 text-sm font-medium text-gray-700 md:max-w-md">{{ $t('header_content') }}</p>
                     </div>
 
                     <div class="flex justify-center md:justify-start mt-10 mx-auto">
-                        <a href="#DownloadandShare" class="px-4 py-2 font-semibold tracking-wide bg-teal-500 border-teal-500 border-2 rounded text-white hover:bg-transparent hover:border-teal-400 hover:text-teal-400">Download</a>
+                        <a href="#DownloadandShare" class="px-4 py-2 font-semibold tracking-wide bg-teal-500 border-teal-500 border-2 rounded text-white hover:bg-transparent hover:border-teal-400 hover:text-teal-400">{{ $t('Download') }}</a>
                     </div>
                 </div>
             </div>

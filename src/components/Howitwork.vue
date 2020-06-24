@@ -3,8 +3,8 @@
      data-aos-easing="linear"
      data-aos-duration="1000">
         <div class="mb-16">
-            <h1 class="font-semibold mb-5 text-center text-teal-500 text-xl">How It Work</h1>
-            <p class="font-light text-center text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, pariatur reprehenderit facere, suscipit perferendis fugiat eos atque obcaecati necessitatibus explicabo, non nihil sed dolorem dignissimos? Maxime earum suscipit quas alias!</p>
+            <h1 class="font-semibold mb-5 text-center text-teal-500 text-xl">{{$t('How It Work')}}</h1>
+            <p class="font-light text-center text-gray-700">{{$t('How_It_Work_content')}}</p>
         </div>
         
         <carousel class="pb-12">
@@ -15,6 +15,7 @@
          <slide class="md:px-24">
             <img class="px-1 rounded-lg" src="../assets/images/step2.png" alt="">
         </slide>
+        
         <slide class="md:px-24">
             <img class="px-1 rounded-lg" src="../assets/images/step3.png" alt="">
         </slide>
