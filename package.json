@@ -9,7 +9,6 @@
     "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
   },
   "dependencies": {
-    "@bit/joshk.vue-spinners-css.roller-loader": "^1.1.4",
     "aos": "^3.0.0-beta.6",
     "core-js": "^3.6.5",
     "epic-spinners": "^1.1.0",

@@ -31,9 +31,9 @@
                 </div>
             </div>
 
-            <div class="flex items-center" style="height:540px;">
+            <div class="flex items-center justify-center md:justify-start" style="height:540px;">
                 <div :class="currentPage == 'en' ? 'md:text-left' : 'md:text-right'" class="text-center">
-                    <div class="md:max-w-sm">
+                    <div class="w-full md:max-w-sm">
                         <h2 class="mb-6 text-2xl font-semibold text-teal-500 md:text-4xl">{{ $t('Medication To Your Home') }}</h2>
                     </div> 
 
@@ -41,7 +41,7 @@
                         <p class="mb-6 text-sm font-medium text-gray-700 md:max-w-md">{{ $t('header_content') }}</p>
                     </div>
 
-                    <div class="flex justify-center md:justify-start mt-10 mx-auto">
+                    <div class="mt-10 mx-auto">
                         <a href="#DownloadandShare" class="px-4 py-2 font-semibold tracking-wide bg-teal-500 border-teal-500 border-2 rounded text-white hover:bg-transparent hover:border-teal-400 hover:text-teal-400">{{ $t('Download') }}</a>
                     </div>
                 </div>
