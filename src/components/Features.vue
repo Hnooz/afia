@@ -1,7 +1,7 @@
 <template>
     <section id="Features" class="md:flex container border-b-2 border-teal-500 mx-auto px-12 py-20" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
         <div class="lg:w-1/2 md:w-3/4 w-full">
-           <img src="../assets/images/slide1.jpg" class="md:h-auto md:min-h-full  min-h-full rounded" alt="">
+           <img src="../assets/images/feature.png" class="md:h-auto md:min-h-full  min-h-full rounded" alt="">
         </div>
 
         <div class="items-center justify-between mt-10 md:mt-0">

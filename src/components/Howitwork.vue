@@ -7,15 +7,18 @@
         
         <carousel dir="ltr" class="pb-12">
             <slide class="md:px-24">
-                <img class="px-1 rounded-lg" src="../assets/images/step1.png" alt="">
+                <img v-if="currentPage == 'ar'" class="px-1 rounded-lg" src="../assets/images/afia-04.png" alt="">
+                <img v-if="currentPage == 'en'" class="px-1 rounded-lg" src="../assets/images/step1.png" alt="">
             </slide>
 
             <slide class="md:px-24">
-                <img class="px-1 rounded-lg" src="../assets/images/step2.png" alt="">
+                 <img v-if="currentPage == 'ar'" class="px-1 rounded-lg" src="../assets/images/afia-05.png" alt="">
+                <img v-if="currentPage == 'en'" class="px-1 rounded-lg" src="../assets/images/step2.png" alt="">
             </slide>
             
             <slide class="md:px-24">
-                <img class="px-1 rounded-lg" src="../assets/images/step3.png" alt="">
+                 <img v-if="currentPage == 'ar'" class="px-1 rounded-lg" src="../assets/images/afia-06.png" alt="">
+                <img v-if="currentPage == 'en'" class="px-1 rounded-lg" src="../assets/images/step3.png" alt="">
             </slide>
         </carousel>
     </div>
@@ -23,11 +26,17 @@
 
 <script>
 import { Carousel, Slide } from 'vue-carousel';
+import i18n from '../i18n';
 export default {
   components: {
     Carousel,
     Slide
-  }
+  },
+  computed: {
+    currentPage() {
+      return i18n.locale;
+    }
+  },
 
 };
 </script>
